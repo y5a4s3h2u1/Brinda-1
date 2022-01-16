@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            border: 0;
+            box-sizing: border-box;
+        }
+        .window{
+            width: 80%;
+            height: 500px;
+            margin: auto;
+            margin-top: 100px;
+            overflow: hidden;
+            position: relative;
+            left: 0;
+            top: 0;
+        }
+        .reel{
+            width: 1500%;
+            height: 100%;
+            position: relative;
+            left: 0;
+            top: 0;
+            animation: slide 70s infinite;
+        }
+        .reel div{
+            width: 6.66%;
+            height: 100%;
+            float: left;
+            position: relative;
+        }
+        /* .text{
+            width: 60%;
+            height: 80%;
+            position: absolute;
+            top: 10%;
+            left: 20%;
+            background-color: rgba(126, 126, 151, 0.6);
+            text-align: center;
+            color: red;
+            padding-top: 150px;
+        } */
+        .reel div img{
+            width: 100%;
+            height: 100%;
+        }
+        .reel div h2{
+            position: absolute;
+            left: 50%;
+            top: 80%;
+            transform: translateX(-50%);
+            color:black;
+        }
+        /* .reel div h1{
+            position: absolute;
+            left: 50%;
+            top: 80%;
+            transform: translateX(-50%);
+            color:black;
+        } */
+        @keyframes slide{
+            0% {left: 0;}
+            2% {left: 0;}
+            6% {left: -100%;}
+            8% {left: -100%;}
+            12% {left: -200%;}
+            14% {left: -200%;}
+            18% {left: -300%;}
+            20% {left: -300%;}
+            24% {left: -400%;}
+            26% {left: -400%;}
+            30% {left: -500%;}
+            32% {left: -500%;}
+            36% {left: -600%;}
+            38% {left: -600%;}
+            42% {left: -700%;}
+            44% {left: -700%;}
+            48% {left: -800%;}
+            50% {left: -800%;}
+            54% {left: -900%;}
+            56% {left: -900%;}
+            60% {left: -1000%;}
+            62% {left: -1000%;}
+            66% {left: -1100%;}
+            68% {left: -1100%;}
+            72% {left: -1200%;}
+            74% {left: -1200%;}
+            78% {left: -1300%;}
+            80% {left: -1300%;}
+            84% {left: -1400%;}
+            86% {left: -1400%;}
+            90% {left: 0;}
+        }
+    </style>
+</head>
+<body>
+    <div class="window">
+        <div class="reel">
+            <div>
+                <img src="./slider images/Radha image.jpg" alt="Radha">
+                <h2>This is slide one</h2>
+            </div>
+            <div>
+                <img src="./slider images/Krishna image.jpg" alt="Krishna">
+                <h2>This is slide two</h2>
+            </div>
+            <div>
+                <img src="./slider images/Chamundeshwari image.jpg" alt="Chamundeshwari">
+                <h2>This is slide three</h2>
+            </div>
+            <div>
+                <img src="./slider images/Nandi image.jpg" alt="Nandi">
+                <h2>This is slide four</h2>
+            </div>
+            <div>
+                <img src="./slider images/Laxmi image.jpg" alt="Laxmi">
+                <h2>This is slide five</h2>
+            </div>
+            <div>
+                <img src="./slider images/Saraswati image.jpg" alt="Saraswati">
+                <h2>This is slide six</h2>
+            </div>
+            <div>
+                <img src="./slider images/Durgadevi image.jpg" alt="Durgadevi">
+                <h2>This is slide seven</h2>
+            </div>
+            <div>
+                <img src="./slider images/Sita Ram Laxmana image.jpg" alt="Sita Ram Laxmana">
+                <h2>This is slide eight</h2>
+            </div>
+            <div>
+                <img src="./slider images/Draupadi image.jpg" alt="Draupadi">
+                <h2>This is slide nine</h2>
+            </div>
+            <div>
+                <img src="./slider images/Ganesha image.jpg" alt="Ganesha">
+                <h2>This is slide ten</h2>
+            </div>
+            <div>
+                <img src="./slider images/Venkateshwara image.jpg" alt="Venkateshwara">
+                <h2>This is slide eleven</h2>
+            </div>
+            <div>
+                <img src="./slider images/Hanuman image.jpg" alt="Hanuman">
+                <h2>This is slide twleve</h2>
+            </div>
+            <div>
+                <img src="./slider images/Shiva image.jpg" alt="Shiva">
+                <h2>This is slide thirteen</h2>
+            </div>
+            <div>
+                <img src="./slider images/Radha image 2.jpg" alt="Radha 2">
+                <h2>This is slide fourteen</h2>
+            </div>
+            <div>
+                <img src="./slider images/Krishna image 2.webp" alt="Krishna 2">
+                <h2>This is slide fifteen</h2>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
